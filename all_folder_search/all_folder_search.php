@@ -578,7 +578,7 @@ console("moving $uids from $mbox to $target");
                                 $second = $result_h[$y]->timestamp;
                                 break;
                 case 'size':    $first = $result_h[$x]->size;
-                                $iecond = $result_h[$y]->size;
+                                $second = $result_h[$y]->size;
                                 break;
                 case 'subject': $first = strtolower($result_h[$x]->subject);
                                 $second = strtolower($result_h[$y]->subject);
