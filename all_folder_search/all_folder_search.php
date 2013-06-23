@@ -10,8 +10,9 @@
  *   - viewing a message then going back to the message list
  *       x message list doesnt exist at this point so its not as easy as calling the plugin's list function
  *
- * @version 0.6
+ * @version 0.7
  * @author Ryan Ostrander
+ * Updated & Maintained by Stephane Tremblay stephane@peacefuljourney.ca
  */
 
 class all_folder_search extends rcube_plugin
