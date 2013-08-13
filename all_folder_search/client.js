@@ -48,8 +48,10 @@ if (window.rcmail) {
             if(evt.list.selection.length == 1)
             {
                 var mbox = rcmail.env.all_folder_search_uid_mboxes[evt.list.selection[0]].mbox;
+                var uid = rcmail.env.all_folder_search_uid_mboxes[evt.list.selection[0]].uid;
                 rcmail.select_folder(mbox, rcmail.env.mailbox);
                 rcmail.env.mailbox = mbox;
+                rcmail.env.uid= uid;
             }
 
             rcmail.message_list.draggable = false;
